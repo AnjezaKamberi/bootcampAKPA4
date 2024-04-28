@@ -7,6 +7,7 @@ public class Film {
 	// 1. vlereso film per cdo regjisor
 	// 2. printo vleresimet per cdo film nga cdo regjisor
 	// 3. printo filmin me vleresim me te larte
+	// DSH 4. cili eshte regjisori qe ka dhene me shume pike 
 
 	public static void main(String[] args) {
 		int nrFilm = 2;
