@@ -6,10 +6,11 @@ public class MjetTransporti extends Object {
 	private String ngjyra;
 
 	public MjetTransporti() {
-
+		super();
 	}
 
 	public MjetTransporti(String targa, String ngjyra) {
+		super();
 		this.targa = targa;
 		this.ngjyra = ngjyra;
 	}
@@ -32,6 +33,15 @@ public class MjetTransporti extends Object {
 
 	public void ndizMjetTransporti() {
 		System.out.println("Mjeti transportit u ndez");
+	}
+
+	public void menaxhoLevizje() {
+		System.out.println("Nuk mund te percaktoj si te leviz");
+		System.out.println("Mjeti i transportit leviz me marshe sipas tipit te tij");
+	}
+
+	public final void ndaloMjetTransporti() {
+		System.out.println("Mjeti transportit u ndalua");
 	}
 
 }
